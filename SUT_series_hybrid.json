@@ -1,0 +1,89 @@
+{
+    "icon": "evtol.svg",
+    "takeoff_landing_type": "runway",
+    "autonomous": false,
+    "mtom": 6328.9,
+    "empty_mass": 2847.97,
+    "payload": 2577.77,
+    "flow_rate": 1,
+    "can_scoop": true,
+    "scooping_distance": 5,
+    "span": 16.51,
+    "propulsion_input": {
+        "architecture": "series_hybrid",
+        "generator": {
+            "total_propellant": 903.102408,
+            "reserve_propellant": 188.317944,
+            "propellant_unit": "kg",
+            "output_power": 800,
+            "bsfc": 310,
+            "refueling_rate": 6
+        },
+        "electric": {
+            "total_propellant": 306000,
+            "reserve_propellant": 45900,
+            "propellant_unit": "kJ",
+            "charging_power": 150,
+            "discharging_power": 1200,
+            "battery_swap_enabled": false,
+            "battery_swap_time": 0.0,
+            "taxi_out_power": 164.618,
+            "taxi_in_power": 164.618,
+            "transition_power": {
+                "2847": 0,
+                "6328": 0
+            },
+            "retransition_power": {
+                "2847": 0,
+                "6328": 0
+            },
+            "takeoff_power": {
+                "2847": 149.69,
+                "6328": 332.58
+            },
+            "cruise_climb_power": {
+                "2847": 381,
+                "6328": 847
+            },
+            "cruise_power": {
+                "2847": 101.669,
+                "6328": 334.339
+            },
+            "cruise_descent_power": {
+                "2847": 71.1683,
+                "6328": 234.0373
+            },
+            "landing_power": {
+                "2847": 25.41725,
+                "6328": 83.58475
+            },
+            "hover_power": {
+                "2847": 0,
+                "6328": 0
+            },
+            "loiter_power": {
+                "2847": 351.83,
+                "6328": 52.059
+            }
+        }
+    },
+    "profile_parameters": {
+        "taxi_out_duration": 120.0,
+        "taxi_in_duration": 120.0,
+        "transition_duration": 15.0,
+        "retransition_duration": 15.0,
+        "takeoff_altitude": 450,
+        "takeoff_climb_rate": 5,
+        "takeoff_ground_speed": 27.8,
+        "cruise_climb_rate": 6,
+        "cruise_climb_ground_speed": 43.11,
+        "cruise_altitude": 3048,
+        "cruise_speed": 91.667,
+        "cruise_descent_rate": 6,
+        "cruise_descent_ground_speed": 43.11,
+        "landing_altitude": 457.2,
+        "landing_descent_rate": 4.6,
+        "landing_ground_speed": 44.4,
+        "loiter_speed": 63.5
+    }
+}
